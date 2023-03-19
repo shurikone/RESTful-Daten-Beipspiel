@@ -1,0 +1,46 @@
+<!doctype html>
+<div lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>eine kleine Web-Seite</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="wind" style="display: none;"></div>
+    <div id="temperature" style="display: none;"></div>
+    <div id="tagonacht" style="display: none;"></div>
+
+    <script src="js/REST.js"></script>
+    <div class="container">
+        <div class="header">
+            <div class="title-block">
+                <h1 class="title">Hier wird es angezeigt, <br> wie es zurzeit feels like</h1>
+            </div>
+            <div class="citypic"></div>
+        </div>
+
+
+        <div class="nav">
+            <ul>
+                <li><a href="temperature.html">Temperatur</a></li>
+                <li><a href="wind.html">Wind</a></li>
+                <li><a href="feelslike.html">Gefühlt wie</a></li>
+                <li><a href="tagonacht.html">Tag oder Nacht</a></li>
+                <li><a href="index.html">Zurück zum Anfang</a></li>
+
+            </ul>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="content">
+                <h3> Gefühlt wie</h3>
+            </div>
+            <div>
+                <h2 id="feelslike"></h2>
+            </div>
+    </body>
+    </html>
